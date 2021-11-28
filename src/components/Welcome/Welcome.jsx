@@ -12,7 +12,7 @@ import welcomeImg from '../Images/welcomeImg.png';
 export const Welcome = () => {
 	const CLIENT_ID = '2ab6dff6b53145db89da10d5f4e710ee';
 	const AUTHORIZE = 'https://accounts.spotify.com/authorize';
-	// const REDIRECT_URI = 'https://playlist-generator.vercel.app/generador';
+	//const REDIRECT_URI = 'https://playlist-generator.vercel.app/generador';
 	const REDIRECT_URI = 'http://localhost:3000/generador';
 	const SCOPES = ['playlist-modify-public', 'playlist-modify-private', 'user-read-private', 'user-read-email'];
 	const SCOPES_URL_PARAM = SCOPES.join('%20', );
