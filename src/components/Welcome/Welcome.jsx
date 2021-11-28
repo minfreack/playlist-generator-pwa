@@ -10,7 +10,6 @@ import { Footer } from '../Footer/Footer';
 import welcomeImg from '../Images/welcomeImg.png';
 
 export const Welcome = () => {
-
 	const CLIENT_ID = '2ab6dff6b53145db89da10d5f4e710ee';
 	const AUTHORIZE = 'https://accounts.spotify.com/authorize';
 	// const REDIRECT_URI = 'https://playlist-generator.vercel.app/generador';
@@ -23,7 +22,6 @@ export const Welcome = () => {
 	const requestAuthorization = () => {
 		window.location.href = URL;
 	};
-
 	return (
 		<>
 			<Title>Playlist Generator</Title>

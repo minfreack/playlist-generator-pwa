@@ -10,9 +10,13 @@ import { Footer } from '../Footer/Footer';
 // import { GenreInfo } from '../GenreInfo/GenreInfo';
 import { P } from '../Commons/P';
 import {playlists} from '../JSON/playlist.json';
+import {playlists2} from '../JSON/playlist-2.json';
+import {playlists3} from '../JSON/playlist-3.json';
 import { ArtistInfo } from '../ArtistInfo/ArtistInfo';
 
 const playlist = playlists;
+const playlist2 = playlists2;
+const playlist3 = playlists3;
 export const OfflineDashboard = () => {
 	return (
 		<>
@@ -45,14 +49,14 @@ export const OfflineDashboard = () => {
 						<H3>Party</H3>
 					</SectionFlex>
 					<SectionFlex direction="column" directionT="row" gap="1rem" wrapT="wrap">
-						{/* {
-							songs?.map( ({name, album, id}) => {
+						{
+							playlist2?.map( ({name, images, id, href}) => {
 							
 								return (
-									<SongInfo key={id} id={id} name={name} album={album} songsUser={songsUser} setSongsUser={setSongsUser}></SongInfo>
+									<ArtistInfo key={id} id={id} name={name} images={images} href={href}></ArtistInfo>
 								);
 							})
-						} */}
+						}
 					</SectionFlex>
 				</Card>
 				<Card>
@@ -60,14 +64,14 @@ export const OfflineDashboard = () => {
 						<H3>Sad</H3>
 					</SectionFlex>
 					<SectionFlex direction="row" gap="1rem" wrap="wrap" wrapT="wrap">
-						{/* {
-							genres?.map( (genre, i) => {
+						{
+							playlist3?.map( ({name, images, id, href}) => {
+							
 								return (
-								
-									<GenreInfo  key={i} genre={genre} genresUser={genresUser} setGenresUser={setGenresUser}></GenreInfo>
+									<ArtistInfo key={id} id={id} name={name} images={images} href={href}></ArtistInfo>
 								);
 							})
-						} */}
+						}
 					</SectionFlex>
 				</Card>
 			</SectionGrid>

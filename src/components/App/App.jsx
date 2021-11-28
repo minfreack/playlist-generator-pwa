@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { createGlobalStyle } from 'styled-components';
 // import { Generador } from '../Generador/Generador';
@@ -12,6 +12,8 @@ import {
 import { Generador } from '../Generador/Generador';
 import { Offline, Online } from 'react-detect-offline';
 import { OfflineDashboard } from '../OfflineDashboard/OfflineDashboard';
+import registerServiceWorker from '../../../serviceWorkerRegistration';
+import OneSignal from 'react-onesignal'
 const GlobalStyles = createGlobalStyle`
 * {
   box-sizing: border-box;
@@ -31,7 +33,11 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 export const App = () => {
-
+	useEffect(() => {
+		OneSignal.init({
+			appId: "cab4d967-eda9-44dc-a7c3-6e7cb17f3dd1"
+		});
+	}, []);
 	return (
 		<>
 			<Helmet>
@@ -55,10 +61,13 @@ export const App = () => {
 				<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"/>
 				<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
 				<meta name="theme-color" content="#ffffff"/>
-				<link rel="manifest" href="manifest.webmanifest"/>
-				<script src="app.js" defer/>
+				<link rel="manifest" href="manifest.json"/>
+				<script type="module" src="app.js" defer/>
+				<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+				<script>window.OneSignal = window.OneSignal || [];</script>
 			</Helmet>
 			<GlobalStyles/>
+			{registerServiceWorker()}
 			<Router>
 				<Switch>
 					<Route exact path="/">

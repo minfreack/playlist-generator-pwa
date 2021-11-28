@@ -1,13 +1,13 @@
 {
-	"playlists" :
+	"playlists3" :
 	[
 		{
-			"href": "https://open.spotify.com/playlist/1DvhhUUhuoWAsvCxZZdH9A?si=d3fc308be1a74b05",
+			"href": "https://open.spotify.com/playlist/0f9mMmSEhBTG4j5KXlYqSs?si=eb55af4b851b42b9",
 			"id" : "1",
 			"images": [
 				{
 					"height": 640,
-					"url": "https://mosaic.scdn.co/640/ab67616d0000b2736ca5c90113b30c3c43ffb8f4ab67616d0000b273d8b8307316208d35b9d7094dab67616d0000b273ea9358f552068bf204eb152aab67616d0000b273f9f2d43ff44bdfbe8c556f8d",
+					"url": "https://mosaic.scdn.co/640/ab67616d0000b2731f5a61ca13f18ac48efcd1aeab67616d0000b2732257b1bcec673861bca460b3ab67616d0000b2732b8bb96195a4c51a40fff9b0ab67616d0000b2736c1281eccac823bd368f8782",
 					"width": 640
 				},
 				{
@@ -21,15 +21,15 @@
 					"width": 160
 				}
 			],
-			"name": "Gym G"
+			"name": "Morra triste"
 		},
 		{
-			"href": "https://open.spotify.com/playlist/25LQ3yalpc0SFceDTH4pv6?si=5cf1066fbbac4742",
+			"href": "https://open.spotify.com/playlist/263ZbDP6fE7bAX05eucT3k?si=9139c96d26dd451c",
 			"id" : "2",
 			"images": [
 				{
 					"height": 640,
-					"url": "https://i.scdn.co/image/ab67616d0000b2732b52c71710e60f97f19439d4",
+					"url": "https://mosaic.scdn.co/640/ab67616d0000b273021b9779a9dbaa6a976edb2dab67616d0000b2730df5a3171ae193e62b52cc8cab67616d0000b273d3cf840d8a7e8a5785df7d81ab67616d0000b273f342e70aacda9d78cfb6ce7a",
 					"width": 640
 				},
 				{
@@ -46,12 +46,12 @@
 			"name": "Run n' chill"
 		},
 		{
-			"href": "https://open.spotify.com/playlist/71MfepDlDzhYyKXOfdhgoG?si=e6907145a3e74bac",
+			"href": "https://open.spotify.com/playlist/5xOWCe5NMsEaFqASz9TKsK?si=e13380c7155f4177",
 			"id" : "3",
 			"images": [
 				{
 					"height": 640,
-					"url": "https://mosaic.scdn.co/640/ab67616d0000b2732cb7202455d64d65e15f6197ab67616d0000b273559769036607549f92579d08ab67616d0000b2737c8a923e9407a36ed6ce01bcab67616d0000b273b6d4566db0d12894a1a3b7a2",
+					"url": "https://mosaic.scdn.co/640/ab67616d0000b2730eadc106011002182fca7a94ab67616d0000b2732e9b5fb556f3b1ee849f83b3ab67616d0000b27384ea405764c0459f44447ed7ab67616d0000b273f25a5393f9b7461032b15b07",
 					"width": 640
 				},
 				{
@@ -65,7 +65,7 @@
 					"width": 160
 				}
 			],
-			"name": "Train"
+			"name": "Señor deprimido"
 		}
 	]
 }

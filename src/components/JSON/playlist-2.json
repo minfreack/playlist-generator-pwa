@@ -1,13 +1,13 @@
 {
-	"playlists" :
+	"playlists2" :
 	[
 		{
-			"href": "https://open.spotify.com/playlist/1DvhhUUhuoWAsvCxZZdH9A?si=d3fc308be1a74b05",
+			"href": "https://open.spotify.com/playlist/5W2MBqkd5iS1UzfIxb1ulC?si=9d19f267e52441ee",
 			"id" : "1",
 			"images": [
 				{
 					"height": 640,
-					"url": "https://mosaic.scdn.co/640/ab67616d0000b2736ca5c90113b30c3c43ffb8f4ab67616d0000b273d8b8307316208d35b9d7094dab67616d0000b273ea9358f552068bf204eb152aab67616d0000b273f9f2d43ff44bdfbe8c556f8d",
+					"url": "https://mosaic.scdn.co/640/ab67616d0000b27304d849b0b580859bdb70e644ab67616d0000b2734277da4c011dcc87f012bbabab67616d0000b2735fa6dc9fc261344044c301a9ab67616d0000b2736d842333abacb347a98ffc83",
 					"width": 640
 				},
 				{
@@ -21,15 +21,15 @@
 					"width": 160
 				}
 			],
-			"name": "Gym G"
+			"name": "Perreo"
 		},
 		{
-			"href": "https://open.spotify.com/playlist/25LQ3yalpc0SFceDTH4pv6?si=5cf1066fbbac4742",
+			"href": "https://open.spotify.com/playlist/6HuhvftMhVszIpjvGVPOna?si=fffd49c0d961469a",
 			"id" : "2",
 			"images": [
 				{
 					"height": 640,
-					"url": "https://i.scdn.co/image/ab67616d0000b2732b52c71710e60f97f19439d4",
+					"url": "https://mosaic.scdn.co/640/ab67616d0000b273548f7ec52da7313de0c5e4a0ab67616d0000b2739fa9c0acaf11becc12d22300ab67616d0000b273ddd3154c58e15a8bdb63bbccab67616d0000b273f89d8cc59e29c9d2f846e903",
 					"width": 640
 				},
 				{
@@ -43,15 +43,15 @@
 					"width": 160
 				}
 			],
-			"name": "Run n' chill"
+			"name": "Perreo mientras lloro"
 		},
 		{
-			"href": "https://open.spotify.com/playlist/71MfepDlDzhYyKXOfdhgoG?si=e6907145a3e74bac",
+			"href": "https://open.spotify.com/playlist/15oZ1mT3VwakYSDObVArH9?si=52ed4675348848e7",
 			"id" : "3",
 			"images": [
 				{
 					"height": 640,
-					"url": "https://mosaic.scdn.co/640/ab67616d0000b2732cb7202455d64d65e15f6197ab67616d0000b273559769036607549f92579d08ab67616d0000b2737c8a923e9407a36ed6ce01bcab67616d0000b273b6d4566db0d12894a1a3b7a2",
+					"url": "https://mosaic.scdn.co/640/ab67616d0000b2733965869424bcae03c0dbe7baab67616d0000b273548f7ec52da7313de0c5e4a0ab67616d0000b2739e89eed549f8723d337f4fb2ab67616d0000b273dada4e65cefce3bdc16a8dae",
 					"width": 640
 				},
 				{
@@ -65,7 +65,7 @@
 					"width": 160
 				}
 			],
-			"name": "Train"
+			"name": "🥵T R A P E A R🥵"
 		}
 	]
 }
