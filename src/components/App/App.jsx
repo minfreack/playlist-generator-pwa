@@ -61,8 +61,8 @@ export const App = () => {
 				<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"/>
 				<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
 				<meta name="theme-color" content="#ffffff"/>
-				<link rel="manifest" href="../manifest.json"/>
-				<script type="module" src="../app.js" defer/>
+				<link rel="manifest" href="manifest.json"/>
+				<script type="module" src="app.js" defer/>
 				<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
 				<script>window.OneSignal = window.OneSignal || [];</script>
 			</Helmet>
